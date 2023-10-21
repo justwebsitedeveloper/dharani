@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Poppins:wght@300;400&display=swap');
+
+.banner_content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  color: #CA2325;
+  line-height: 50px;
+}
+
+.banner_contentmain {
+  position: absolute;
+  left: 70%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+  text-align: center;
+  color: #CA2325;
+  line-height: 50px;
+}
+.banner_contentmaintwo{
+  position: absolute;
+  left: 70%;
+bottom: -10%;
+  transform: translate(-50%, -50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  text-align: left;
+  color: #CA2325;
+  line-height: 90px;
+}
+.banner-subcontent {
+  position: absolute;
+  left: 50%;
+  top: 62%;
+  transform: translate(-50%, -50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.banner-subcontenttwo {
+  position: absolute;
+  left: 70%;
+  top: 62%;
+  transform: translate(-50%, -50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgb(199, 199, 199);
+  text-align: center;
+}
+.banner-subcontentthree{
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: rgb(199, 199, 199);
+  text-align: left;
+}
+.about-para {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #666666;
+  text-align: center;
+}
+
+.about-para span {
+  position: relative;
+}
+
+.about-para span::before {
+  content: "";
+  position: absolute;
+  left: 32%;
+  bottom: 0px;
+  width: 70px;
+  height: 3px;
+  transform: skew(-12deg) translateX(-50%);
+  background:#CA2325;
+  z-index: -1;
+}
+
+.mySwiper {
+  max-width: 800px;
+  height: 350px;
+  margin-top: 100px;
+}
+.mySwiper2{
+  max-width: 800px;
+  height: 180px;
+  padding-top:10px!important;
+}
+.swiper-slide {
+  text-align: -webkit-center;
+
+  h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #CA2325;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #666666;
+    max-width: 400px;
+    text-align: center;
+  }
+  h5{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 608px;
+    text-align: center;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #CA2325 !important;
+}
+
+.certificate {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  text-align: -webkit-center;
+}
+
+.organisation {
+  margin-top: 0px;
+  margin-bottom: 120px;
+  text-align: -webkit-center;
+}
+
+.certificate-heading span {
+  position: relative;
+}
+
+.certificate-heading span::before {
+  content: "";
+  position: absolute;
+  left: 32%;
+  bottom: 0px;
+  width: 70px;
+  height: 4px;
+  transform: skew(-12deg) translateX(-50%);
+  background: #CA2325;
+  z-index: -1;
+}
+
+.stamps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.leaf-l{
+  width: 80px;
+}
+.heading-org {
+  text-align: -webkit-center;
+}
+
+.img-org {
+  width: 100%;
+}
+
+.randd {
+  background-color: #f4f4f4;
+  text-align: -webkit-center;
+}
+
+.randdcontent {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 1200px;
+  text-align: center;
+  line-height: 36px;
+  color: #666666;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.randdcontenttwo{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 1200px;
+  text-align: center;
+  line-height: 36px;
+  color: #666666;
+  padding-top: 20px;
+span{
+  color: #CA2325;
+}
+}
+
+.randdcontent span {
+  color: #CA2325;
+}
+
+.values {
+  text-align: -webkit-center;
+  padding-top: 88px;
+}
+
+.book {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.culture {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  text-align: -webkit-center;
+}
+
+.cards p {
+  color: #666666;
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  padding-top: 20px;
+  max-width: 556px;
+  text-align: center;
+  
+
+  span {
+    color: #CA2325;
+  }
+}
+.newcard{
+  height: 240px;
+}
+.cards {
+  padding: 32px 16px;
+  border: 1px solid #f1f1f1;
+  max-width: 588px;
+  border-radius: 32px;
+  width: 340px;
+  h2{
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+  }
+}
+
+.cards-list {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.cardlistone {
+  margin-top: 75px;
+}
+
+.cards:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.redscreen p {
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  max-width: 364px;
+  color: #ececec;
+  text-align: center;
+}
+
+.red {
+  background-color: #CA2325;
+  padding-top: 92px;
+  padding-bottom: 33px;
+}
+
+.redscreen {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.redscreen span {
+  font-weight: 400;
+  color: white;
+}
+
+@media screen and (max-width:600px) {
+  .banner_contentmain {
+    left: 50%;
+    top: 64%;
+    font-size: 67px;
+  }
+
+  .banner-subcontenttwo {
+    left: 49%;
+    top: 72%;
+    font-size: 18px;
+    color: rgb(255 255 255);
+  }
+.swiper-slide h5{
+  font-size: 15px;
+}
+  .banner-home {
+    filter: brightness(0.7);
+  }
+
+}
+
+.certificate-heading {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #666666;
+}
+.talking img{
+  width: 100%;
+  margin-bottom: 60px;
+}
+.vision {
+  text-align: -webkit-center;
+  padding-top: 100px;
+  // padding-bottom: 100px;
+}
+
+.visionheading {
+  padding-bottom: 40px;
+}
+
+.vision-para {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #666666;
+  text-align: center;
+  max-width: 800px;
+
+  span {
+    color: #CA2325;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .vision-para {
+    font-size: 18px;
+  }
+
+  .visionheading {
+    font-size: 25px;
+  }
+
+  .certificate-heading {
+    font-size: 25px;
+  }
+
+  .about-para {
+    font-size: 18px;
+  }
+
+  .stamps {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .organisation {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .randdcontent {
+    font-size: 16px;
+  }
+
+  .swiper-slide h3 {
+    font-size: 20px;
+  }
+
+  .swiper-slide p {
+    font-size: 17px;
+  }
+
+.myswiper{
+height: 375px;
+}
+.swiper-button-next, .swiper-button-prev{
+  color: #CA2325!important;
+}
+  .cards img {
+    width: 120px;
+  }
+
+  .cards-list {
+    flex-wrap: wrap;
+  }
+
+  .culture {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .cards p {
+    font-size: 16px;
+  }
+
+  .redscreen {
+    flex-wrap: wrap;
+  }
+
+  .redscreen p {
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .banner_content {
+    font-size: 38px;
+  }
+
+  .banner-subcontent {
+    font-size: 14px!important;
+    top: 71%!important;
+  }
+  .certificate{
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .subsabt{
+    top: 60%!important;
+  }
+}
+.RVM_banner-design{
+  margin-bottom: 120px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 24px!important;
+  color: white!important;
+}
+.infrab{
+  display: flex;
+  justify-content: space-between;
+}
+.infrabb{
+  max-width: 100%;
+}
+.infrabtwo{
+  display: none;
+}
+.infrabanner-content{
+  display: none;
+}
+@media screen and (max-width:600px) {
+  .infrab{
+    flex-wrap: wrap;
+  }
+  .infrabb{
+    display: none;
+    margin-top: 50px;
+  }
+  .infrabanner-content{
+    display: block;
+  }
+  .infrabtwo{
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .banner_contentmaintwo {
+    position: unset;
+    transform: unset;
+    font-size: 47px;
+    line-height: 59px;
+    text-align: center;
+}
+.banner-subcontentthree {
+  position: unset;
+  top: 3%;
+  transform: unset;
+  font-size: 28px;
+  text-align: center;
+}
+.RVM_banner-design {
+  margin-bottom: 60px;
+}
+.about-usbanner{
+  margin-top: 80px;
+}
+}
+.about-usbanner{
+  margin-bottom: 0px!important;
+}
+.banner-img{
+  width: 100%;
+}
+
+.column {
+  // float: left;
+  width: 50%;
+  padding: 40px;
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columns{
+  display: flex;
+}
+
+@media screen and (max-width:600px){
+  .columns{
+    display: block;
+  }
+  .column{
+    width: 100%;
+    padding: 20px;
+  }
+  ol{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+ 
+}
+
+.modal-content li{
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.modal-content h2{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.modal-content ol{
+  list-style: none;
+}
+.cards img{
+  max-width: 100px;
+}
+.modal-content{
+  padding-bottom: 40px;
+}
+ol{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.culture_paragraph{
+  margin-top: 60px;
+  p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+.img-banner{
+  width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+  .mobile{
+    display: none;
+   width: 100%;
+  }
+
+}
+@media screen and (max-width:649px) {
+  .lap{
+display: none;
+  }
+  .emphasise{
+    margin-top: 0px;
+  }
+ 
+}
+.piechart{
+  max-width: 370px;
+}
+.emphasise{
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  max-width: 600px;
+  margin-top: 20px;
+  color: black;
+  text-align: left;
+  span{
+    color: #CA2325;
+  }
+}
+.emp-center{
+  text-align: center;
+}
+.banner-vde{
+  width: 100%;
+}

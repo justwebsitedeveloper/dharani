@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Poppins:wght@300;400&display=swap');
+
+.infra-intro{
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    color: #323232;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    max-width: 1000px;
+    span{
+        color: #CA2325;
+    }
+}
+.infrastructure-main{
+    text-align: -webkit-center;
+    margin-bottom: 90px;
+}
+.banner-subcontent {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  @media screen and (max-width:600px) {
+    .infra-intro {
+        font-size: 14px;
+        line-height: 24px;
+    }
+  }
+  // .infra-roll{
+  //   background-image: url('./../../../../images/infra/infrastructure\ full.jpg');
+  //   background-size: 2000px;
+  //   padding-bottom: 140px;
+  //   padding-top: 140px;
+  // }
+  .infra-image{
+    position: relative;
+  }
+  .infra-pointlist{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+  }
+ .infra-points ul{
+  font-weight: 300;
+  font-family: 'Outfit', sans-serif;
+  color: #5d5c5c;
+  font-size: 20px;
+ }
+.inbanner{
+  margin-top: 70px;
+}
+.points-two{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width:600px) {
+  .infra-points ul{
+    font-size: 16px;
+  }
+  .dharanilog{
+    // display: none;
+  }
+  .infra-image img{
+    width: auto;
+    height: 730px;
+}
+.infra-image{
+  overflow: hidden;
+}
+  }
+
+.infra-points{
+  max-width: 600px;
+}
+.coreb{
+  margin-bottom: 40px!important;
+}
+.core-val-section{
+  text-align: -webkit-center;
+}
+.infra-inside-sec{
+  width: 500px;
+}
+.inf{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+
+}
+@media screen and (max-width:700px) {
+  .inf{
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+}
+.infra-roll{
+  background-image: url('./../../../../images/infra/infrastructure\ full.png');
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infrabb{
+  width: 100%;
+}

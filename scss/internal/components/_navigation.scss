@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Poppins:wght@300;400&display=swap');
+.navbar-brand{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.nav-bar_top {
+  li {
+    a {
+      margin-left: 20px;
+      &:hover {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        color: #CA2325;
+       
+      }
+      &:link,
+      &:visited,
+      &:active {
+        font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+}
+.navbar-custom {
+  height: 70px;
+}
+
+
+.offcanvas-end {
+  width: 250px;
+}
+
+.navbar #nav > .active > a {
+  color: #CA2325;
+  font-family: 'Outfit', sans-serif;
+font-weight: 400;
+  font-size: 16px;
+}
+.navbar{
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #323232;
+}
+.nav-link{
+  color: #323232;
+}
+.hoplogo{
+  width: 210px;
+}
+.d-logo{
+  width: 210px;
+}
+.navbar #nav > .active > a::after{
+  content: "";
+  display: block;
+  width: 24px;
+  padding-top: 3px;
+  border-bottom: 2px solid #CA2325;
+  margin-left: 30%;
+}
+@media screen  and (max-width:600px) {
+  .hoplogo{
+    width: 110px;
+  }
+  .d-logo{
+    width: 72px;
+  }
+  .navbar {
+     padding-top: 0px; 
+     padding-bottom: 0px;
+}
+}

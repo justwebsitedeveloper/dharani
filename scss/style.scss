@@ -1,0 +1,19 @@
+//external
+
+@import './external/libraries';
+@import './external/variables';
+
+//internal
+
+@import './internal/base/base';
+@import './internal/base/mixins';
+
+@import './internal/components/footer';
+@import './internal/components/navigation';
+
+@import './internal/pages/home/banner';
+@import './internal/pages/about/about';
+@import './internal/pages/infra/infra';
+@import './internal/pages/solution/sol';
+@import './internal/pages/contact/conatct';
+@import './internal/pages/responsive/responsive';

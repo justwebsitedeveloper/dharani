@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Poppins:wght@300;400&display=swap');
+
+
+.location{
+    display: flex;
+    gap: 10px;
+    place-items: center;
+    margin-bottom: 18px;
+    p{
+        font-size: 16px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 300;
+        color: #808080;
+        max-width: 480px;
+        margin-bottom: 0px;
+    }
+    img{
+        width: 15px;
+        height: 18px;
+    }
+}
+.maps{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.map-asia h4{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #CA2325;
+    padding-bottom: 28px;
+    text-transform:uppercase;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 334px;
+    max-width: 556px;
+    margin-top: 20px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+.maps-dharani{
+    display: flex;
+    justify-content: space-between;
+}
+.form_d h3{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #222222;
+    padding-bottom: 56px;
+}
+.form_d h3::after{
+    content: "";
+    display: block;
+    width: 64px;
+    padding-top: 3px;
+    border-bottom: 2px solid #CA2325;
+}
+.form_d{
+    padding: 60px;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 912px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+.contact-fields{
+    width: 384px;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    padding-bottom: 20px;
+    border-bottom-color: #323232;
+}
+.contact-fields::placeholder{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
+.subject{
+    padding-bottom: 32px;
+}
+.contact-fieldss{
+    width: 100%;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    padding-bottom: 10px;
+    border-bottom-color: #323232;
+}
+.msg{
+    padding-bottom: 56px;
+}
+.contact_form{
+    background-image: url('./../../../../images/contact/contact_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    padding-top: 99px;
+    padding-bottom: 99px;
+}
+.contact_form{
+    text-align: -webkit-center;
+}
+.footer-contact{
+    margin-top: 0px!important;
+}
+
+.Contact_form input{
+    outline: none;
+}
+
+@media screen and (max-width:600px) {
+    .maps-dharani{
+        flex-wrap: wrap;
+    }
+    .maps {
+        margin-top: 100px;
+    }
+    .map-asia h4{
+        font-size: 18px;
+    }
+    .location p{
+        font-size: 14px;
+    }
+    .map-asia{
+        padding-bottom: 20px;
+    }
+    .name{
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+    .form_d{
+        padding: 25px;
+        h3{
+            padding-bottom: 20px;
+        }
+    }
+    .contact-fields{
+        width: 360px;
+    }
+}
+@media screen and (max-width:420px) {
+    .contact-fields{
+        width: 306px;
+    }
+}
